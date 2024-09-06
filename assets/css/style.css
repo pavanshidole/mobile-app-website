@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    background-image: linear-gradient(rgb(218, 54, 45, 0.501),rgba(218, 51, 45, 0.501)),url(../image/hero\ -bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%  100%;
+    padding: 45px 0 65px;
+    overflow: hidden;
+}
+
+.hero-section .hero-header{
+    margin-bottom: 145px;
+}
+
+.logo{
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar ul{
+    display: inline-block;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+    text-transform: uppercase;
+    height: 59px;
+    line-height: 59px;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar ul li a::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.7s linear;
+}
+
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+
+.chocolate-info h1{
+    font-weight: 900;
+    color: #fff;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.chocolate-info p{
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.chocolate-info a{
+    padding: 15px 50px 15px 35px;
+    color: #fff;
+    background-color: #282828;
+    border-radius: 45px;
+
+}
+
+.chocolate-info a i{
+    font-size: 45px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.hero-section .mobimg{
+    position: relative;
+}
+
+.hero-section .mobimg img{
+    position: absolute;
+    right: 20px;
+    top: -35px;
+
+}
+
+/* ************************************************header-section-end****************************************************************** */
+
+.feature-section{
+    padding: 90px 0 110px;
+}
+
+
+.feature-heading h1{
+    font-weight: bold;
+    font-size:52px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
+.feature-heading p{
+    font-weight: 400;
+    font-size:22px;
+    color: #3a3a3a;
+    margin-bottom: 65px;
+}
+
+.feature-info  img{
+    margin-bottom: 35px;
+}
+
+.feature-info h2{
+    font-weight: 900;
+    font-size: 24px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.feature-info p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #646464;
+}
+
+/* ############################################################## App-Feature-End ################################################### */
+
+
+
+.ice-cream{
+    padding: 195px 0 170px;
+    /* background-color: rgb(215,222,220); */
+    background-image:url("../image/fruit-image.png"),linear-gradient(rgb(215,222,220),rgb(215,222,220));
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.ice-cream-info h2{
+    font-weight: bold;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    color: #fff;
+    width: 80%;
+}
+
+.ice-cream-info .info-color{
+    color: #f55150;
+}
+
+.ice-cream-info p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #585858;
+    margin-bottom: 70px;
+    width: 75%;
+}
+
+.ice-cream-info a{
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: #d9332d;
+    display: inline-block;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    margin-left: 15px;
+}
+
+/*  ............................................................... fuiut-section/ice-cream-section-end.........................................*/
+
+.footer{
+    background-color: #2e2e38;
+    padding: 120px 0 155px;
+}
+
+.footer-logo{
+    font-size: 52px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 65px;
+}
+
+.footer-info h3{
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.footer-info .box{
+    width: 55px;
+    height: 40px;
+    background-color: #e74c3c;
+    margin-right: 15px;
+}
+
+.footer-info div p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.footer-info ul li div{
+    display: inline-block;
+}
+
+.footer-info ul{
+    margin-bottom: 25px;
+}
+
+.footer-info .info-2{
+    margin-bottom: 40px;
+}
+
+.footer-info .para{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-info .info{
+    font-size: 15px;
+    color: #fff;
+    font-style: italic;
+    width: 70%;
+}
+
+.footer-section p{
+    float: left;
+}
+
+.footer-section{
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+footer{
+    padding: 45px 0 40px;
+}
+
+.footer-section .para-2{
+    font-size: 26px;
+    font-weight: 400;
+    color: #000;
+}
+
+.footer-section p span{
+    margin: 0 20px;
+}
+
+.social-icon a{
+    margin-right: 40px;
+}
+
+.margin{
+    margin-left: 20px;
+}
